@@ -47,7 +47,7 @@ Cada bloco possúi um Hash próprio, para ele ser gerado ele precisa do Hash do 
 ```bash
 HASH do BLOCO: {Hash anterior || Dados}
 ```
-O que acontece se um hacker tentar alterar a blockchain do bitcoin?
+_O que acontece se um hacker tentar alterar a blockchain do bitcoin?_
 
 Se um hacker tentar inserir dados falsos na blockchain do Bitcoin, a integridade da cadeia de blocos será comprometida, tornando a fraude facilmente perceptível. Para que isso não aconteça, o hacker precisaria modificar praticamente toda a blockchain. Além de ser algo extremamente inviável, os demais participantes da rede rapidamente perceberiam que algo está errado, já que a nova cadeia que o hacker tentaria implementar seria completamente distinta da original. Em mais de dez anos de funcionamento, não há registros de adulterações bem-sucedidas na blockchain do Bitcoin.
 
@@ -63,7 +63,7 @@ Na tentativa de uma fraude, o atacante tera que inserir dados falsos, logo isso 
 
 usa criptografia de chave pública
 
-O que acontece se alguém descobrir seu par chave pública/secreta?
+_O que acontece se alguém descobrir seu par chave pública/secreta?_
 
 Se alguém descobrir seu par chave pública/secreta, esta pessoa poderá assinar qualquer documento como se fosse você. Sendo um conjunto de funções criptográficas, o sistema de assinatura digitais é incapaz de fazer distinção entre pessoas, apenas verificar a compatibilidade das chaves utilizadas. Proteger sua chave secreta é fundamental para segurança no Bitcoin.**principal meio de transferência do Bitcoin**
 
@@ -74,4 +74,48 @@ Se alguém descobrir seu par chave pública/secreta, esta pessoa poderá assinar
 - Quem tem quanto?
 - **Quem transferiu quanto para quem?** esse é um dos principais problemas das moedas digitais.
 
-Vamos nomear a nossa moeda de [centralcoin](CentralCoin.md)
+Vamos nomear a nossa moeda de [CentralCoin](CentralCoin.md)
+
+# O Bitcoin
+
+Rede distribuida e Peer-to-Peer.
+
+## A rede Bitcoin
+
+- O "banco central" da CentralCoin é substituído por uma rede de computadores
+- Distribuída
+- Sem Hierarquia
+- Protocolo de Consenso
+
+> Na CentralCoin o banco decidia a ordem e validade das transações. No Bitcoin, todos os computadores da rede precisam entrar em acordo.
+> > Mesmo que alguns computadores sejam maliciosos.
+
+Para participar da rede do Bitcoin, basta você baixar um **client de bitcoin**, que é um conjunto de informações.
+
+- Qualquer computador cone ctado à rede blockchain é um nó desta rede.
+- __Full Nodes__(**MINERADORES**): 
+    - Validam todas as transações emitidas pela rede.
+    - mantêm a consistência da blockchain.
+
+- __Lite Nodes__(**CARTEIRAS**):
+    - Não armazenam toda a blockchain.
+    - Necessitam de informação de outros nós.
+
+
+### Mineradores
+- Validam as transações recebidas e criam novos blocos
+- Competem entre si pelo direito de adicionar o próximo bloco na blockchain
+- Verificam blocos obtidos por outros mineradores e adicionam a blockchain quando válidos
+- Sempre extendem o ramo mais longo da blockchain*
+
+_O que acontece se um nó da rede começa a transmitir informações falsas?_
+
+Nada. A rede Bitcoin é extremamente resistente a agentes maliciosos, porque todas as informações são verificadas antes de serem adicionadas na blockchain, e a partir daí tornam-se impossíveis de adulterar. Para adicionar informações falsas na blockchain, um hacker teria que ter ao menos 51% de todo o poder computacional da rede, algo extremamente improvável para o Bitcoin. Em criptomoedas pouco conhecidas e com poucos mineradores, este é um risco significativo. Outra possibilidade é o hacker roubar a chave secreta de um usuário, quando então poderá assumir a identidade (e os Bitcoins) da vítima, transferindo-os para onde quiser. Nesse caso, a falha de segurança não é na rede Bitcoin, já que as informações fornecidas são tecnicamente verdadeiras e a rede não é capaz de identificar quem as está transmitindo. Seria como se alguém tivesse roubado seu talão de cheques e soubesse imitar sua assinatura perfeitamente, sem a possibilidade de estornar os cheques utilizados.
+
+
+# Proof of Work (PoW)
+
+Bloco da blockchain tem um novo elemento: Hash do bloco, Hash do bloco anterior, **NONCE** e Transações
+`Hash do bloco:{Hash anterior|| Transações || Nonce}`
+
+O minerador que conseguir encontrar o bloco com o hash que tenha um determinado numero de '0' no começo, isso é uma tentativa de adivinhar o hash do novo bloco. Esse número é chamado de **DIFICULDADE**. Um bloco novo é criado a cada 10 minutos.
