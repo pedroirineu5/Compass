@@ -38,6 +38,6 @@ Para publicar uma transação de CentralCoin:
 4. Por fim, será adicionado um bloco na blockchain. Oficializando a transação
 
 
-# Como o banco sabe o meu saldo na CentralCoin?
+_Como o banco sabe o meu saldo na CentralCoin?_
 
 Na CentralCoin (e no Bitcoin), o conceito de “saldo” de uma “conta” é diferente. O banco central não mantém um cadastro onde calcula quanto dinheiro cada usuário tem. O saldo de uma pessoa nada mais é do que a soma do valor de todas as moedas criadas e destinadas à chave pública dessa pessoa, e que ainda não tenham sido consumidas em outras transações. O banco da CentralCoin verifica esses dados na blockchain para saber o “saldo” de uma chave pública.

@@ -119,3 +119,13 @@ Bloco da blockchain tem um novo elemento: Hash do bloco, Hash do bloco anterior,
 `Hash do bloco:{Hash anterior|| Transações || Nonce}`
 
 O minerador que conseguir encontrar o bloco com o hash que tenha um determinado numero de '0' no começo, isso é uma tentativa de adivinhar o hash do novo bloco. Esse número é chamado de **DIFICULDADE**. Um bloco novo é criado a cada 10 minutos.
+
+![Proof of WORK example](images/pow.png)
+
+Basicamente, após o minerador supostamente achar um bloco que condiz com a dificuldade, será avisado na rede do Bitcoin, através de uma **verificação implícita** do bloco os mineradores partem para minerar nesse novo bloco. _Lembrando, que isso é uma coisa aleatória podem ficar minerando no bloco antigo_
+
+## Coinbase Transaction
+
+Principal forma de remuneração dos mineradores. Ao criar um novo bloco após a mineração, o minerador ele vai poder criar transações de bitcoins novos(normalmente para a sua carteira). A quantidade de bitcoins que o minerador pode inserir dentro da coinbase transaction, é limitada e cai pela metade a quantidade de bitcoins a cada 4 anos. **TODO O DINHEIRO QUE EXISTE NO BITCOIN EXISTE POR CONTA DA TRANSACTION** 
+
+> No começo do bitcoin, a cada coinbase transactions, o bitcoin 
