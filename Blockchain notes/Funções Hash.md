@@ -4,7 +4,7 @@
 - Transforma um text de entrada(input) em um texto de saída(output) de tamanho fixo;
 - O texto de entrada pode ter qualquer tamanho;
 - O texto de saída sempre tem o mesmo tamanho.
-![fdasfdas](images/hash.png)
+![fdasfdas](../images/hash.png)
 
 Não importa o tamanho do texto o output sempre terá o mesmo tamanho.
 

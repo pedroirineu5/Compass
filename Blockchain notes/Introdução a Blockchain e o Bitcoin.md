@@ -14,10 +14,6 @@ Em **2008**, foi lançado o artigo que definiu o bitcoin, tratando sobre:
 
 **2009** -> Primeiro bloco do Bitcoin chamado de genesis block
 
-**PORQUE DIABOS O BITCOIN É MUITO VALORIZADO?**
-
-// TO DO: uma página sobre o **gasto duplo**
-Ele foi a única criptomoeda a solucionar o problema de Gasto duplo
 
 
 | Caracterísiticas         | Sistema Tradicional   | Bitcoin                   |
@@ -31,6 +27,7 @@ Ele foi a única criptomoeda a solucionar o problema de Gasto duplo
 | **Regulamentação**       | Banco Central, Normas | Ainda Indefinida          |
 | **Processo de decisão**  | Arbitrário            | Consenso                  |
 | **Controle do Dinheiro** | Banco                 | Você                      |
+
 Se o não houver um consenso irá acontecer um "hard fork" no bitcoin. Serão criadas "novas" moedas baseadas na mesma premissa do bitcoin, porém com suas peculiaridades.
 
 # Blockchain
@@ -44,7 +41,7 @@ Por que a blockchain é inviolável?
 
 Cada bloco possúi um Hash próprio, para ele ser gerado ele precisa do Hash do bloco anterior e os dados do bloco próprio bloco. A função é mais ou menos assim.
 
-```bash
+```sh
 HASH do BLOCO: {Hash anterior || Dados}
 ```
 _O que acontece se um hacker tentar alterar a blockchain do bitcoin?_
@@ -135,3 +132,8 @@ Principal forma de remuneração dos mineradores. Ao criar um novo bloco após a
 _Já que a recompensa pela mineração vem caindo com o tempo, pode ser que no futuro haja bem menos mineradores. Qual é a consequência disso para a velocidade de criação de novos blocos?_
 
 Nenhuma. Um novo bloco é criado, em média, a cada dez minutos. Se o número de mineradores é menor, fica mais fácil obter uma solução para o proof of work. Assim, a taxa de criação de blocos é mantida aproximadamente constante.
+
+**PORQUE DIABOS O BITCOIN É MUITO VALORIZADO?**
+
+// TO DO: uma página sobre o **gasto duplo**
+Ele foi a única criptomoeda a solucionar o problema de Gasto duplo  
