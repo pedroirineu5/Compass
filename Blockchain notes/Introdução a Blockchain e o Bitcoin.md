@@ -37,7 +37,7 @@ Se o não houver um consenso irá acontecer um "hard fork" no bitcoin. Serão cr
 ## Blockchain Básica
 
 Por que a blockchain é inviolável?
-![imagem simples representando](images/basic_blockchain.png)
+![imagem simples representando](../images/basic_blockchain.png)
 
 Cada bloco possúi um Hash próprio, para ele ser gerado ele precisa do Hash do bloco anterior e os dados do bloco próprio bloco. A função é mais ou menos assim.
 
@@ -119,7 +119,7 @@ Bloco da blockchain tem um novo elemento: Hash do bloco, Hash do bloco anterior,
 
 O minerador que conseguir encontrar o bloco com o hash que tenha um determinado numero de '0' no começo, isso é uma tentativa de adivinhar o hash do novo bloco. Esse número é chamado de **DIFICULDADE**. Um bloco novo é criado a cada 10 minutos.
 
-![Proof of WORK example](images/pow.png)
+![Proof of WORK example](../images/pow.png)
 
 Basicamente, após o minerador supostamente achar um bloco que condiz com a dificuldade, será avisado na rede do Bitcoin, através de uma **verificação implícita** do bloco os mineradores partem para minerar nesse novo bloco. _Lembrando, que isso é uma coisa aleatória podem ficar minerando no bloco antigo_
 
