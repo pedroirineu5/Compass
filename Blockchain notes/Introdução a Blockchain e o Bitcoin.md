@@ -118,6 +118,8 @@ Nada. A rede Bitcoin é extremamente resistente a agentes maliciosos, porque tod
 Bloco da blockchain tem um novo elemento: Hash do bloco, Hash do bloco anterior, **NONCE** e Transações
 `Hash do bloco:{Hash anterior|| Transações || Nonce}`
 
+>   O NONCE é um valor numérico sem significado que é adicionado a cada bloco da blockchain. Os mineradores alteram o valor do nonce tentando cumprir com o requisito do proof of work.
+
 O minerador que conseguir encontrar o bloco com o hash que tenha um determinado numero de '0' no começo, isso é uma tentativa de adivinhar o hash do novo bloco. Esse número é chamado de **DIFICULDADE**. Um bloco novo é criado a cada 10 minutos.
 
 ![Proof of WORK example](images/pow.png)
@@ -128,4 +130,8 @@ Basicamente, após o minerador supostamente achar um bloco que condiz com a difi
 
 Principal forma de remuneração dos mineradores. Ao criar um novo bloco após a mineração, o minerador ele vai poder criar transações de bitcoins novos(normalmente para a sua carteira). A quantidade de bitcoins que o minerador pode inserir dentro da coinbase transaction, é limitada e cai pela metade a quantidade de bitcoins a cada 4 anos. **TODO O DINHEIRO QUE EXISTE NO BITCOIN EXISTE POR CONTA DA TRANSACTION** 
 
-> No começo do bitcoin, a cada coinbase transactions, o bitcoin 
+> No começo do bitcoin, a cada coinbase transactions, era criado 50 BTCs, com o passar do tempo foi caindo pela metade.
+
+_Já que a recompensa pela mineração vem caindo com o tempo, pode ser que no futuro haja bem menos mineradores. Qual é a consequência disso para a velocidade de criação de novos blocos?_
+
+Nenhuma. Um novo bloco é criado, em média, a cada dez minutos. Se o número de mineradores é menor, fica mais fácil obter uma solução para o proof of work. Assim, a taxa de criação de blocos é mantida aproximadamente constante.
