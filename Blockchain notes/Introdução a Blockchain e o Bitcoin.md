@@ -136,4 +136,4 @@ Nenhuma. Um novo bloco é criado, em média, a cada dez minutos. Se o número de
 **PORQUE DIABOS O BITCOIN É MUITO VALORIZADO?**
 
 // TO DO: uma página sobre o **gasto duplo**
-Ele foi a única criptomoeda a solucionar o problema de Gasto duplo  
+Ele foi a única criptomoeda a solucionar o problema de Gasto duplo 
