@@ -62,7 +62,7 @@ usa criptografia de chave pública
 
 _O que acontece se alguém descobrir seu par chave pública/secreta?_
 
-Se alguém descobrir seu par chave pública/secreta, esta pessoa poderá assinar qualquer documento como se fosse você. Sendo um conjunto de funções criptográficas, o sistema de assinatura digitais é incapaz de fazer distinção entre pessoas, apenas verificar a compatibilidade das chaves utilizadas. Proteger sua chave secreta é fundamental para segurança no Bitcoin.**principal meio de transferência do Bitcoin**
+Se alguém descobrir seu par chave pública/secreta, esta pessoa poderá assinar qualquer documento como se fosse você. Sendo um conjunto de funções criptográficas, o sistema de assinatura digitais é incapaz de fazer distinção entre pessoas, apenas verificar a compatibilidade das chaves utilizadas. Proteger sua chave secreta é fundamental para segurança no Bitcoin. **Principal meio de transferência do Bitcoin**
 
 # Criando uma Moeda
 
