@@ -1,0 +1,5 @@
+O artigo "Understanding Peer to Peer Network" explica o conceito de redes peer-to-peer (P2P), que são redes descentralizadas formadas por dispositivos conectados, onde todos os nós têm igual poder e podem compartilhar arquivos sem a necessidade de um servidor central. O texto detalha como essas redes operam e suas aplicações, como empréstimos P2P, pagamentos, seguros, e blockchain. O blockchain, inclusive, é baseado em P2P, permitindo transações sem intermediários.
+
+O artigo também aborda os três tipos de redes P2P: não estruturadas, estruturadas e híbridas. Redes não estruturadas conectam nós de forma aleatória, enquanto as estruturadas organizam a comunicação entre nós. As híbridas combinam características de P2P com um modelo cliente-servidor.
+
+No contexto das blockchains, redes P2P são essenciais para sua descentralização, segurança e imutabilidade de dados. Contudo, as redes P2P enfrentam desafios, como a demanda por maior poder computacional e problemas de escalabilidade. Mesmo assim, P2P continua sendo um pilar fundamental para tecnologias emergentes como blockchain e criptomoedas.
