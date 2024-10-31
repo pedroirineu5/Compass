@@ -1,0 +1,8 @@
+Este artigo introduz a criptografia em criptomoedas, explicando como ela protege transações e redes blockchain contra ataques. A criptografia usa as chaves pública e privada para garantir a segurança das transações dos traders e algoritmos padrão para proteger a integridade da rede blockchain.
+
+Existem dois principais riscos de hacking: a violação da assinatura digital dos usuários para iniciar transações maliciosas e a manipulação do blockchain subjacente. A criptografia e as funções de hash são usadas para proteger contra esses ataques, dificultando a alteração de blocos sem poder computacional extremo. As funções de hash criptográficas, que convertem dados em sequências alfanuméricas de tamanho fixo, são essenciais para a segurança da rede, pois garantem que qualquer pequena alteração no bloco gere um hash completamente diferente. Isso também dificulta reverter o conteúdo de um bloco.
+
+O processo de assinatura digital permite que os mineradores validem transações, comparando hashes para garantir que a mensagem e a assinatura sejam autênticas. Para modificar qualquer bloco da cadeia, os hackers teriam que recriar a sequência de hashes de todos os blocos subsequentes, o que, devido à participação contínua dos mineradores, é praticamente impossível. Portanto, manter a chave privada segura e usar algoritmos padrão de criptografia são essenciais para a proteção em blockchain.
+
+[artigo original](https://101blockchains.com/cryptography-in-cryptocurrency/
+)
