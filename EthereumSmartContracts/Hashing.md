@@ -1,0 +1,4 @@
+# Hash criptográfico
+
+- Determinísticos;
+- Unilaterais;
